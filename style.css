@@ -307,6 +307,8 @@
  
  .container .content .col:last-child .social {
      display: flex;
+     margin-top: -50px;
+     margin-left: 75px;
      gap: 20px;
  }
  
@@ -355,7 +357,7 @@
      .hero {
          position: relative;
          width: 100%;
-         height: 100vh;
+         height: 100%;
          background: #eff4fd;
      }
      nav {
@@ -407,11 +409,11 @@
          border-radius: 5px;
      }
      .images {
-         width: 45%;
-         height: 80%;
+         width: 15%;
+         height: 30%;
          position: absolute;
          bottom: 0;
-         right: 100px;
+         right: -51px;
      }
      .images img {
          height: 100%;
@@ -517,6 +519,7 @@
      .container .content .col:last-child .social {
          display: flex;
          gap: 20px;
+         right: 100px
      }
      .container .content .col:last-child .social img {
          width: 40px;
